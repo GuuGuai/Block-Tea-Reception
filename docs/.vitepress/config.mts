@@ -52,12 +52,13 @@ export default defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
   return [
+    { text: '文档', link: '/server', activeMatch: '^/(?!about).+' },
     {
       text: '友链', items:
         [
           { text: '野生技协', link: 'https://thisis.host' },
           { text: '古怪杂记本', link: 'https://gug.thisis.host' },
-          { text: '纸鹿摸鱼处', link: 'https://arch.cooo.site/' },
+          { text: '纸鹿摸鱼处', link: 'https://blog.zhilu.cyou/' },
         ],
     },
     { text: '关于', link: '/about' },
