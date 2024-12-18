@@ -38,7 +38,7 @@ export default defineConfig({
 
         footer: {
             message: 'kaguyasama@yeah.net(古古怪怪)　dyr61145713@hotmail.com(寒香)',
-            copyright: `© <a href="/about">2020</a>-${new Date().getFullYear()} 方块茶话会 (Block Tea Reception)`,
+            copyright: `© 2020-${new Date().getFullYear()} 方块茶话会 (Block Tea Reception)`,
         },
     },
 
@@ -52,8 +52,8 @@ function nav(): DefaultTheme.NavItem[] {
     return [
         { text: '文档', link: '/server', activeMatch: '^/(?!about$).+' },
         { text: '友链', items: [
-            { text: '野生技协', link: 'https://thisis.host' },
-            { text: '古怪杂记本', link: 'https://gug.thisis.host' },
+            { text: '野生技协', link: 'https://thisis.host/' },
+            { text: '古怪杂记本', link: 'https://gug.thisis.host/' },
             { text: '纸鹿摸鱼处', link: 'https://blog.zhilu.cyou/' },
         ] },
         { text: '关于', link: '/about' },
