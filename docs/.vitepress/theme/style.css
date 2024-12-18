@@ -1,5 +1,4 @@
 /* stylelint-disable selector-class-pattern */
-
 :root {
     --vp-c-brand-1: #5a1;
     --vp-c-brand-2: #582;
@@ -11,7 +10,7 @@
     --vp-home-hero-image-filter: blur(8em);
 }
 
-.VPImage {
+.VPHero .VPImage {
     border-radius: 100%;
 }
 
@@ -34,6 +33,7 @@
 .fa-regular,
 .fa-brands {
     width: 1.3em;
+    vertical-align: middle;
     text-align: center;
 }
 
