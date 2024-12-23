@@ -10,7 +10,7 @@ export default defineConfig({
 
     themeConfig: {
     // https://vitepress.dev/zh/reference/default-theme-config
-        logo: 'https://p.qlogo.cn/gh/1142349003/1142349003/0/',
+        logo: 'https://wsrv.nl/?url=p.qlogo.cn/gh/1142349003/1142349003/100/&mask=circle',
         // siteTitle: '',
         nav: nav(),
         sidebar: sidebar(),
@@ -27,8 +27,8 @@ export default defineConfig({
         outline: { level: [2, 3], label: '目录' },
         returnToTopLabel: '返回顶部',
         editLink: {
-            pattern: 'https://github.com/GuuGuai/Block-Tea-Reception/edit/main/docs/:path',
-            text: '在 GitHub 上编辑此页面',
+            pattern: 'https://github.com/GuuGuai/Block-Tea-Reception/blame/main/docs/:path',
+            text: '源代码',
         },
         lastUpdated: {
             text: '更新于',
@@ -38,24 +38,22 @@ export default defineConfig({
 
         footer: {
             message: 'kaguyasama@yeah.net(古古怪怪)　dyr61145713@hotmail.com(寒香)',
-            copyright: `© <a href="/about">2020</a>-${new Date().getFullYear()} 方块茶话会 (Block Tea Reception)`,
+            copyright: `© 2020-${new Date().getFullYear()} 方块茶话会 (Block Tea Reception)`,
         },
     },
 
     head: [
-        ['link', { rel: 'icon', href: 'https://p.qlogo.cn/gh/1142349003/1142349003/0/' }],
-        // ['link', { rel: 'stylesheet', href: '//s1.hdslb.com/bfs/static/jinkela/long/font/regular.css', media: 'none', onload: 'media="all"' }],
-        // ['link', { rel: 'stylesheet', href: '//s1.hdslb.com/bfs/static/jinkela/long/font/medium.css', media: 'none', onload: 'media="all"' }],
-        // ['link', { rel: 'stylesheet', href: '//lib.baomitu.com/font-awesome/6.5.1/css/all.min.css', media: 'none', onload: 'media="all"' }],
+        ['link', { rel: 'icon', href: 'https://wsrv.nl/?url=p.qlogo.cn/gh/1142349003/1142349003/100/&mask=circle' }],
+        ['link', { rel: 'stylesheet', href: 'https://lib.baomitu.com/font-awesome/6.5.1/css/all.min.css', media: 'none', onload: 'media="all"' }],
     ],
 })
 
 function nav(): DefaultTheme.NavItem[] {
     return [
-        { text: '文档', link: '/server', activeMatch: '^/(?!about).+' },
+        { text: '文档', link: '/server', activeMatch: '^/(?!about$).+' },
         { text: '友链', items: [
-            { text: '野生技协', link: 'https://thisis.host' },
-            { text: '古怪杂记本', link: 'https://gug.thisis.host' },
+            { text: '野生技协', link: 'https://thisis.host/' },
+            { text: '古怪杂记本', link: 'https://gug.thisis.host/' },
             { text: '纸鹿摸鱼处', link: 'https://blog.zhilu.cyou/' },
         ] },
         { text: '关于', link: '/about' },
@@ -67,10 +65,10 @@ function sidebar(): DefaultTheme.Sidebar {
         { text: '文档', items: [
             { text: '服务器', link: '/server' },
             { text: '机器人', link: '/bot' },
-            { text: '插件指令帮助', items: [
+            /*{ text: '插件指令帮助', items: [
                 { text: 'Ledger查熊', link: '/help/ledger' },
                 { text: '群服互联Bot Connect', link: '/help/bot-connect' },
-            ] },
+            ] },*/
             { text: '群头衔', link: '/title' },
             { text: '赞助', link: '/sponsor' },
         ] },
