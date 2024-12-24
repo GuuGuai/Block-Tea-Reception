@@ -16,6 +16,6 @@
         "@zinkawaii/stylelint-config": "^0.1.5",
         "eslint": "^9.11.1",
         "stylelint": "^16.9.0",
-        "vitepress": "^1.3.4"
+        "vitepress": "^1.5.0"
     }
 }
