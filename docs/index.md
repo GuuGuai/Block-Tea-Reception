@@ -25,14 +25,14 @@ features:
     linkText: 赞助人员
   - title: 服务器
     icon: 💻
-    details: 群内更有腾讯云2核4G轻量服务器开放（四点半肝帝）（Yue_Lang赞助）
+    details: 群内更有48核64G <del>轻量</del> 服务器开放（四点半肝帝）（阳毅赞助）
     link: /server
     linkText: 服务器文档
-  - title: 群机器人
-    icon: 🤖
-    details: 什么？还有群机器人！？没错，十余种功能的QQ机器人等待你的调用！
-    link: /bot
-    linkText: 使用指南
+  # - title: 群机器人
+  #  icon: 🤖
+  #  details: 什么？还有群机器人！？没错，十余种功能的QQ机器人等待你的调用！
+  #  link: /bot
+  #  linkText: 使用指南
   - title: 没有门槛
     icon: 🚪
     details: 欢迎各位的加入！*非实体社团，未在校团委注册（当然也不可能），仅在线交流，暂无线下活动

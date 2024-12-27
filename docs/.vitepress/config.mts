@@ -65,10 +65,10 @@ function sidebar(): DefaultTheme.Sidebar {
         { text: '文档', items: [
             { text: '服务器', link: '/server' },
             { text: '机器人', link: '/bot' },
-            { text: '插件指令帮助', items: [
+            /*{ text: '插件指令帮助', items: [
                 { text: 'Ledger查熊', link: '/help/ledger' },
                 { text: '群服互联Bot Connect', link: '/help/bot-connect' },
-            ] },
+            ] },*/
             { text: '群头衔', link: '/title' },
             { text: '赞助', link: '/sponsor' },
         ] },

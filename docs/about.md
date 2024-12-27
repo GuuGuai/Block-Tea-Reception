@@ -5,7 +5,9 @@ next: false
 
 # 关于
 
-宝中Minecraft服务器（现名称`方块茶话会 | Block Tea Reception`）是由陕西宝鸡中学学子自发组织的线上**非官方**社团，成立于2020年7月17日，由 [古古怪怪GuuGuai](https://github.com/GuuGuai) 主创，后经过社团成员讨论，以合资方式在腾讯云平台租赁服务器搭建Java版PC服务器，`Han_Xiang`主管服务器本体。社团QQ群内搭载Mirai框架运行机器人。
+
+宝中Minecraft服务器（现名称`方块茶话会 | Block Tea Reception`）是由陕西宝鸡中学学子自发组织的线上**非官方**社团，成立于2020年7月17日，由 [古古怪怪GuuGuai](https://github.com/GuuGuai) 主创，后经过社团成员讨论，以合资方式在腾讯云平台租赁服务器搭建Java版PC服务器，`Han_Xiang`主管服务器本体。
+中途经历过服务器的关闭，在2024/12重启了服务器，目前由`阳毅`赞助和管理服务器本体，并开发新的机器人。
 
 社团创建初衷为搭建一个Minecraft爱好者的交流平台，现服务器搭载Fabric内核，优化稳定，欢迎各位小伙伴们加入社团内游玩。
 
@@ -13,6 +15,8 @@ next: false
 
 ### 2024
 
+
+- <Badge>服务器</Badge> 12月22日，重启了服务器，并升级存档至 Java 版 1.20.2
 - <Badge>网站</Badge> 12月18日，优化网站结构
 - <Badge>网站</Badge> 9月24日，优化网站结构
 - <Badge>网站</Badge> 2月21日，使用 VitePress 重新构建网站
