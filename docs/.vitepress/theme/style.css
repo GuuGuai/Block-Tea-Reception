@@ -29,16 +29,15 @@
     z-index: -1;
 }
 
-.fa-solid,
-.fa-regular,
-.fa-brands {
-    width: 1.3em;
+.fa-solid, .fa-regular, .fa-brands {
+    width: 1.2em;
     vertical-align: middle;
     text-align: center;
 }
 
-.icon {
+svg:where(.iconify) {
     display: inline-block;
-    height: 1.5em;
-    vertical-align: middle;
+    flex-shrink: 0;
+    font-size: 1.2em;
+    vertical-align: sub;
 }
