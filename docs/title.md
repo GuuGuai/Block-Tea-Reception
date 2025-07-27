@@ -48,4 +48,3 @@
 ## 【文件上传机器】GuuGuai
 因为群文件不少都是古怪传的，所以他就厚着脸皮自封了一个。
 ![](https://saas.bk-cdn.com/t/1b99443a-1ac2-4abd-a88b-4a10c4ee0a71/u/f424dd35-14ae-487d-b8f2-d6efded36c46/1655043991846/Screenshot_20220612214714.jpg)
-

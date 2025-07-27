@@ -1,15 +1,16 @@
-import { type DefaultTheme, defineConfig } from 'vitepress'
+import type { DefaultTheme } from 'vitepress'
+import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
-    lang: 'zh-Hans',
+    lang: 'zh-CN',
     title: '方块茶话会',
     description: 'Block Tea Reception',
     lastUpdated: true,
     cleanUrls: true,
 
     themeConfig: {
-    // https://vitepress.dev/zh/reference/default-theme-config
+        // https://vitepress.dev/zh/reference/default-theme-config
         logo: 'https://wsrv.nl/?url=p.qlogo.cn/gh/1142349003/1142349003/100/&mask=circle',
         // siteTitle: '',
         nav: nav(),
@@ -51,26 +52,35 @@ export default defineConfig({
 function nav(): DefaultTheme.NavItem[] {
     return [
         { text: '文档', link: '/server', activeMatch: '^/(?!about$).+' },
-        { text: '友链', items: [
-            { text: '野生技协', link: 'https://thisis.host/' },
-            { text: '古怪杂记本', link: 'https://gug.thisis.host/' },
-            { text: '纸鹿摸鱼处', link: 'https://blog.zhilu.cyou/' },
-        ] },
+        {
+            text: '友链',
+            items: [
+                { text: '野生技协', link: 'https://www.thisis.host/' },
+                { text: '古怪杂记本', link: 'https://gug.thisis.host/' },
+                { text: '纸鹿摸鱼处', link: 'https://blog.zhilu.site/' },
+            ],
+        },
         { text: '关于', link: '/about' },
     ]
 }
 
 function sidebar(): DefaultTheme.Sidebar {
     return [
-        { text: '文档', items: [
-            { text: '服务器', link: '/server' },
-            { text: '机器人', link: '/bot' },
-            /*{ text: '插件指令帮助', items: [
-                { text: 'Ledger查熊', link: '/help/ledger' },
-                { text: '群服互联Bot Connect', link: '/help/bot-connect' },
-            ] },*/
-            { text: '群头衔', link: '/title' },
-            { text: '赞助', link: '/sponsor' },
-        ] },
+        {
+            text: '文档',
+            items: [
+                { text: '服务器', link: '/server' },
+                { text: '机器人', link: '/bot' },
+                // {
+                //     text: '插件指令帮助',
+                //     items: [
+                //         { text: 'Ledger查熊', link: '/help/ledger' },
+                //         { text: '群服互联Bot Connect', link: '/help/bot-connect' },
+                //     ],
+                // },
+                { text: '群头衔', link: '/title' },
+                { text: '赞助', link: '/sponsor' },
+            ],
+        },
     ]
 }
