@@ -9,9 +9,9 @@
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.0.0",
+    "@antfu/eslint-config": "^5.2.1",
     "@iconify/vue": "^5.0.0",
     "@zinkawaii/stylelint-config": "^0.3.3",
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.6.4"
   }
 }

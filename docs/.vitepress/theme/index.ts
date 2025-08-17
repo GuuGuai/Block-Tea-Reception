@@ -10,17 +10,17 @@ import './theme-enhanced.css'
 import './style.css'
 
 export default {
-    extends: DefaultTheme,
-    Layout: () => {
-        return h(DefaultTheme.Layout, null, {
-            // https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
-            'doc-after': () => h(Footer),
-        })
-    },
-    enhanceApp({ app, router, siteData }) {
-        void router
-        void siteData
+	extends: DefaultTheme,
+	Layout: () => {
+		return h(DefaultTheme.Layout, null, {
+			// https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
+			'doc-after': () => h(Footer),
+		})
+	},
+	enhanceApp({ app, router, siteData }) {
+		void router
+		void siteData
 
-        app.component('Icon', Icon)
-    },
+		app.component('Icon', Icon)
+	},
 } satisfies Theme
